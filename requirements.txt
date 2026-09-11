@@ -1,0 +1,14 @@
+# Numerical computing, data handling, and plotting
+numpy
+pandas
+# The notebooks use the boxplot(labels=...) API removed in Matplotlib 3.11.
+matplotlib<3.11
+tqdm
+ipython
+
+# Notebook interface and Python kernel
+jupyterlab
+ipykernel
+
+# Provides ssms; retain the legacy simulator API used by the controller.
+ssm-simulators==0.7.8
