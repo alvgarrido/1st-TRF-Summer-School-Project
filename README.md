@@ -1,6 +1,6 @@
 # 1st TRF Summer School Project
 
-Lecture and hands-on project code for the **1st TRF Summer School**, in collaboration with the **EU ChronoPilot project**.
+Lecture and hands-on project code for the **[1st TRF Summer School](https://timingforum.org/chronopilot-trf-summer-school-on-modeling-altered-time-experiences-in-human-and-hybrid-collectives/)**, in collaboration with the **[EU ChronoPilot project](https://www.chronopilot.eu/)**.
 
 The materials explore reinforcement learning, evidence accumulation, cognitive load, and subjective time through a multi-armed bandit task. The project extends these ideas with a controller that selects an agent's engagement level and compares its behavior with random engagement.
 
@@ -9,7 +9,7 @@ The materials explore reinforcement learning, evidence accumulation, cognitive l
 | File | Description |
 | --- | --- |
 | `lecture_part_2.ipynb` | Lecture exercises: an interactive bandit task, leaky competing accumulator simulations, and experiments on option values, number of alternatives, learning, and uncertainty. |
-| `Controller_demo.ipynb` | Project demonstration comparing controlled and random engagement using reaction times, choices, and predicted subjective time. |
+| `controller_demo.ipynb` | Project demonstration comparing controlled and random engagement using reaction times, choices, and predicted subjective time. |
 | `pyeam.py` | Implementation of the leaky competing accumulator (`LCA`) and plotting helpers. |
 | `pyrleam.py` | Reinforcement Learning and Evidence Accumulator Model (`RLEAM`), including learning rules, simulations, and the interactive bandit task. |
 | `data.csv` | Trial data with participant, block, option, reward, reaction-time, and accuracy fields. The controller includes an inactive example for extracting reward distributions from it; the active examples define rewards directly. |
